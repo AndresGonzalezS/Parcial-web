@@ -1,0 +1,101 @@
+.container {
+    border-radius: 5px;
+    border:  0.2px solid #1aebb6 0.2px solid #e9e9e9;
+    box-shadow: 0 0 28px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+    width: 678px;
+    max-width: 100%;
+    min-height: 560px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 100px auto;
+} 
+body {
+    margin: 0;
+    height: 100%;
+    background: linear-gradient(to right, #1aebb6 50%, white 50%);  
+  }
+
+.header {
+    width: 100%;
+    text-align: right;
+    padding-right: 50px;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0 0 80px 0;
+}
+
+.containerSection{
+    display: flex;
+}
+
+.LogoContainer {
+    top: 0;
+    height: 100%;
+    left: 0;
+    width: 40%;
+    z-index: 1;
+}
+
+.Logo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "Roboto", sans-serif;
+    margin: 50px;
+}
+
+.SignUpContainer{
+    top: 0;
+    height: 100%;
+    left: 0;
+    width: 60%;
+    z-index: 2;
+}
+
+.form-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 50px;
+    height: 100%;
+    font-family: "Roboto", sans-serif;
+}
+
+.form-section input::placeholder {
+    color: rgba(136, 127, 127, 0.5); /* Ajusta el valor de la opacidad según sea necesario */
+  }
+
+.title{
+    font-weight: bold;
+    margin: 0 0 50px 0;
+}
+
+label {
+    text-align: left;
+}
+
+.form-section input {
+    width: 85%;
+    background-color: #ffffff;
+    border: 1px solid #e9e9e9;
+    padding: 12px 15px;
+    margin: 20px 0;
+}
+
+.labelForgotPassword{
+    margin: 0 0 50px 0;
+    text-align: right;
+    font-size: 12px;
+}
+
+button {
+    width: 100%;
+    background-color: #1aebb6;
+    border: none;
+    padding: 10px;
+    border-radius: 2px;
+    font-weight: bold;
+}
